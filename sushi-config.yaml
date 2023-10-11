@@ -25,11 +25,11 @@ dependencies:
 
 
 pages:
-  introduction.md:
-    Introduction
+  index.md:
+    Index
   token-flow.md:
     Token flow
 
 menu:
-  Home: introduction.html
+  Home: index.html
   Interactions: token-flow.html
