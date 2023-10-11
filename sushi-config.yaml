@@ -26,9 +26,9 @@ dependencies:
 
 pages:
   index.md:
-    Index
+    title: Index
   token-flow.md:
-    Token flow
+    title: Token flow
 
 menu:
   Home: index.html
