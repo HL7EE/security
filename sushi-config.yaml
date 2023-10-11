@@ -1,4 +1,28 @@
-null
+id: hl7.fhir.ee.security
+canonical: https://fhir.ee
+name: TehikSecurity
+title: TEHIK security Implementation Guide
+description: TEHIK turvalahenduse juurutusjuhend
+status: draft # draft | active | retired | unknown
+version: 1.0.0
+fhirVersion: 5.0.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
+copyrightYear: 2023+
+releaseLabel: ballot # ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+license: Apache-2.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
+jurisdiction: urn:iso:std:iso:3166#EE "Estonia" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+publisher:
+  name: HL7 Estonia
+  url: https://www.hl7.ee
+  # email: test@example.org
+
+# The dependencies property corresponds to IG.dependsOn. The key is the
+# package id and the value is the version (or dev/current). For advanced
+# use cases, the value can be an object with keys for id, uri, and version.
+#
+dependencies:
+  hl7.fhir.uv.extensions: current
+# hl7.terminology.r5: 5.3.0 #version 5.1.0 for R4 only
+
 
 pages:
   introduction.md:
