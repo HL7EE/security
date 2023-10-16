@@ -1,0 +1,13 @@
+{
+  "name": "hl7.fhir.ee.template",
+  "version": "0.0.1",
+  "type": "fhir.template",
+  "license": "Apache-2.0",
+  "description": "Support Estonian template - not intended for real use",
+  "author": "http://fhir.ee",
+  "canonical": "http://github.com/HL7EE/ig-template-fhir",
+  "base": "fhir.base.template",
+  "dependencies": {
+    "fhir.base.template": "current"
+  }
+}

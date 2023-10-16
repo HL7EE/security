@@ -1,0 +1,17 @@
+
+:root {
+    --bs-warning: #004a7c;
+    --bs-warning-rgb: 255,197,58;
+    --bs-danger: #E84855;
+    --bs-danger-rgb: 232, 72, 85;
+    --bs-body-color: #181B1D;
+    --bs-body-color-rgb: 24, 27, 29;
+    --bs-success: #004a7c;
+    --bs-success-rgb: 125, 228, 163;
+    --bs-primary: #110dfd;
+    --bs-font-sans-serif: "Helvetica Neue",system-ui,-apple-system,"Segoe UI",Roboto,Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  }
+
+.alert.alert-warning {
+    color: black;
+}
