@@ -75,7 +75,5 @@ end
 
 app2 --> app1 : api response
 
-
-
 @enduml
-```plantuml
+```
